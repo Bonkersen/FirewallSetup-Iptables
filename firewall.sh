@@ -10,3 +10,5 @@
 /sbin/iptables -A INPUT -i eth1 -p icmp --icmp-type echo-request -j DROP
 #drop-null-packets
 /sbin/iptables -A INPUT -p tcp --tcp-flags ALL NONE -j DROP
+#print-rules
+/sbin/iptables -nL
