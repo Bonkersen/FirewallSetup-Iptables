@@ -1,2 +1,5 @@
-Run bash script 
-sudo sh firewall.sh 
+# Firewall
+## Run bash script 
+```
+sudo sh firewall.sh
+```
